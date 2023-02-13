@@ -1,0 +1,66 @@
+
+.previous {
+    width: 5px;
+    height: 5rem;
+    background-color: aqua;
+}
+
+button {
+    width: 5.4rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 55%;
+    height: 100px;
+}
+
+input {
+    width: 90%;
+    max-width: 450px;
+    height: 35%;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+
+
+
+@media (max-width: 800px){
+    input {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 680px){
+    input {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px){
+    input {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px){
+    input {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 420px){
+    input {
+        font-size: 0.5rem;
+    }
+}

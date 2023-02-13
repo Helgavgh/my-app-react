@@ -1,0 +1,7 @@
+.flechas {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
